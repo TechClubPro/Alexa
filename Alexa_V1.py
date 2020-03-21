@@ -67,21 +67,12 @@ while True:
         
     if "covid" in question:
          im1.show()
-#        path=pygame.image.load("images/CoronaSpread.jpg").convert_alpha()
-#        screen.blit(path,(0,0))
-#        pygame.display.update()
+            
     if "show" in question:
          im2.show()
         
     if "q" in question or "quit" in question:
         break
-    
-#    for event in pygame.event.get():
-#            if event.type == pygame.QUIT:
-#                
-#                pygame.quit()
-#               
-#                break
 
 engine.say("I am Closing the application") 
 engine.runAndWait()  
