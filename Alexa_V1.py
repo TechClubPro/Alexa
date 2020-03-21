@@ -9,29 +9,12 @@ Created on Sat Mar 21 12:29:02 2020
 
 import time
 import pyttsx3
-#import pygame
+
 from PIL import Image 
 
 im1=Image.open("images/CoronaSpread.jpg")
 im2=Image.open("images/corona.jpg")
 
-
-"""pygame.init()
-width=800
-height=400
-
-#Create a Screen with dimensions
-screen = pygame.display.set_mode( ( width, height) )
-
-#Set a Title of Screen
-pygame.display.set_caption('Alexa V1')
-
-#Set a background Image for screen
-#Background = pygame.image.load("D:/Renuka/Python/.spyder-py3/images/pathbck.jpg").convert()
-Background = pygame.image.load("images/SounBackg.jpg").convert()
-#Draw screen from location x=0,y=0
-screen.blit(Background,(0,0))
-"""
 engine = pyttsx3.init() # object creation
 
 """ RATE"""
